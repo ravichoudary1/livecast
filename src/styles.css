@@ -1,0 +1,56 @@
+@import "~bootstrap/dist/css/bootstrap.css";
+
+
+/* You can add global styles to this file, and also import other style files */
+
+
+
+body{
+    background-color: lavender;
+
+}
+
+
+.phote{
+    width: 80%;
+    margin:6%;
+    padding: 1rem;   
+    border-radius: 1rem;
+    
+}
+.names{
+
+    font-family: 'Courier New', Courier, monospace;
+    font-style: oblique;
+    font-weight: bold;
+    color: blue;
+    
+}
+
+
+.player-container{
+    position: relative;
+    width: 97%;
+    height: 0;
+    padding-bottom: 54.56%;
+    margin: 5% 4% 4% 4%;
+    align-items: center;
+}
+.player-container iframe{
+
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    align-items: center;
+}
+
+.enquirycontainer{
+      
+    margin: 2% 25%; 
+
+}
+    
+   
+    
